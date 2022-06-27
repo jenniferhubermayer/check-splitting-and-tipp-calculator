@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Check splitting and tipp calculator</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Check splitting and tipp calculator</h1>
+      <form action="">
+        <label for="checkAmount">What's the amount of your bill?</label>
+        <input
+          type="number"
+          name="checkAmount"
+          id="checkAmount"
+          placeholder="Bill amount in €"
+          required
+        />
+        <label for="numberPeople">How many People will pay?</label>
+        <input
+          type="number"
+          name="numberPeople"
+          id="numberPeople"
+          placeholder="Number of people"
+          required
+        />
+        <label for="serviceQuality">Rate the service quality</label>
+        <select name="serviceQuality" id="serviceQuality" required>
+          <option value="1">super</option>
+          <option value="2">ok</option>
+          <option value="3">bad</option>
+        </select>
+        <button type="submit" onclick="countAmounts(event)">Count</button>
+      </form>
+    </main>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

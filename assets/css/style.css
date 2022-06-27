@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://media3.giphy.com/media/m1945ZDLaz79YstxRT/giphy.gif?cid=ecf05e47hr7mtcx1p4habr57oi22fdtxtzmbsgjuwazztljf&rid=giphy.gif&ct=s);
+    background-repeat: repeat;
+    background-size: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    width: 80%;
+    background-color: rgb(255, 255, 255, 0.95);
+    border-radius: 10px;
+    padding: 40px;
+}
+
+input,
+select,
+button,
+label{
+    display: block;
+    width: 100%;
+}
+
+input,
+select,
+button{
+margin-bottom: 2rem;
+padding: 10px 15px;
+}
+
+label{
+    margin-bottom: 1rem;
+}
+
+h1{
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
