@@ -1,6 +1,6 @@
 # check-splitting-and-tipp-calculator | Online calculator for splitting bills including tip
 
-This is a solution for an Online calculator for splitting bills including a recommended tip depending on the quality of the service. Simply enter the amount of your bill, rate the quality of the service and let us know how many people will pay.
+This is a solution for an online calculator for splitting bills including a recommended tip depending on the quality of the service. Simply enter the amount of your bill, rate the quality of the service and let us know how many people will pay.
 
 ## Table of contents
 
