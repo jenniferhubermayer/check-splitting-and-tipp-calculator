@@ -22,9 +22,9 @@ Create a calculator with which you can use the invoice amount to do the followin
 
 - calculate the tip
   - depending on the level of satisfaction with the service
-    - poor service: 2% tip
+    - poor service: 5% tip
     - average service: 10% tip
-    - great service: 20% tip
+    - great service: 15% tip
 - calculate the money that everyone in your group has to pay
 - calculate the total amount from invoice amount + tip
 
@@ -50,7 +50,8 @@ Create a calculator with which you can use the invoice amount to do the followin
 ### Continued Development
 
 - check if user wishes no splitting, just counting tipp
-- make h2 and p unvissible
+- make h2 and p invissible
+- alert for empty input fields
 
 ## Author
 
