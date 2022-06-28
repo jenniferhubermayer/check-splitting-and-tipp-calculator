@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Tourney:wght@200&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -5,21 +7,25 @@
 }
 
 body{
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
     background-image: url(https://media3.giphy.com/media/m1945ZDLaz79YstxRT/giphy.gif?cid=ecf05e47hr7mtcx1p4habr57oi22fdtxtzmbsgjuwazztljf&rid=giphy.gif&ct=s);
     background-repeat: repeat;
-    background-size: 150px;
+    background-size: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 main{
     width: 80%;
-    background-color: rgb(255, 255, 255, 0.95);
+    background-color: rgb(255, 255, 255, 0.92   );
     border-radius: 10px;
     padding: 40px;
+    max-width: 450px;
+    min-width: 300px;
+    margin: 20px 0 20px 0;
 }
 
 input,
@@ -28,21 +34,50 @@ button,
 label{
     display: block;
     width: 100%;
+    font-family: inherit;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
 }
 
 input,
 select,
 button{
-margin-bottom: 2rem;
+margin-bottom: 1.25rem;
 padding: 10px 15px;
 }
 
 label{
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+button{
+    background-color: rgb(142, 177, 142);
+    color: white;
+}
+
+button:hover{
+    background-color: rgb(129, 161, 129);
+}
+
+input,
+select{
+    background-color: rgb(165, 193, 165);
 }
 
 h1{
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-bottom: 3rem;
     text-align: center;
+    font-family: 'Tourney', cursive;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 1rem;
+}
+
+p{
+    margin-bottom: 0.75rem;
 }

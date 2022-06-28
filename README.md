@@ -10,6 +10,7 @@ This is a solution for an online calculator for splitting bills including a reco
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [Continued development](#continued-development)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -29,12 +30,12 @@ Create a calculator with which you can use the invoice amount to do the followin
 
 ### Screenshot
 
-![](./screenshots)
+![](./screenshots/Screenshot_Check-splitting-and-tipp-calculator.png)
 
 ### Links
 
-- Solution URL: [xxx](xxx)
-- Live Site URL: [xxx](xxx)
+- Solution URL: [https://github.com/jenniferhubermayer/check-splitting-and-tipp-calculator](https://github.com/jenniferhubermayer/check-splitting-and-tipp-calculator)
+- Live Site URL: [https://jenniferhubermayer.github.io/check-splitting-and-tipp-calculator/](https://jenniferhubermayer.github.io/check-splitting-and-tipp-calculator/)
 
 ## My process
 
@@ -45,6 +46,11 @@ Create a calculator with which you can use the invoice amount to do the followin
 - Flexbox
 - Mobile-first workflow
 - JavaScript (Focused on arrays)
+
+### Continued Development
+
+- check if user wishes no splitting, just counting tipp
+- make h2 and p unvissible
 
 ## Author
 

@@ -29,12 +29,23 @@
         />
         <label for="serviceQuality">Rate the service quality</label>
         <select name="serviceQuality" id="serviceQuality" required>
-          <option value="1">super</option>
-          <option value="2">ok</option>
-          <option value="3">bad</option>
+          <option value="15">super</option>
+          <option value="10">ok</option>
+          <option value="5">bad</option>
         </select>
         <button type="submit" onclick="countAmounts(event)">Count</button>
       </form>
+      <article>
+        <h2 class="invissible" id="calculatedTipp">The calculated tip is:</h2>
+        <p class="invissible" id="calculatedTipp">nothing set yet</p>
+        <h2 class="invissible" id="calculatedTotal">The total Amount is:</h2>
+        <p class="invissible" id="calculatedTotal">nothing set yet</p>
+        <h2 class="invissible" id="calculatedSplitt">
+          The price per person is:
+        </h2>
+        <p class="invissible" id="calculatedSplitt">nothing set yet</p>
+        <p class="invissible" id="infoAmount"></p>
+      </article>
     </main>
     <script src="./assets/js/main.js"></script>
   </body>
