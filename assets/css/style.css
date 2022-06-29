@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+html{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
 body{
     min-height: 100vh;
     width: 100vw;
@@ -15,17 +20,16 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Montserrat', sans-serif;
 }
 
 main{
     width: 80%;
     background-color: rgb(255, 255, 255, 0.92   );
     border-radius: 10px;
-    padding: 40px;
+    padding: 30px 40px 20px 30px;
     max-width: 450px;
     min-width: 300px;
-    margin: 20px 0 20px 0;
+    margin: 40px 0 40px 0;
 }
 
 input,
@@ -40,6 +44,8 @@ label{
     appearance: none;
     border: none;
     color: rgb(20, 20, 20);
+    border-radius: 5px;
+    font-weight: bold;
 }
 
 input,
@@ -77,8 +83,27 @@ h1{
 
 h2{
     font-size: 1rem;
+    margin-right: 10px;
+}
+
+p:not(p#infoAmount),
+h2{
+    text-align: right;
 }
 
 p{
     margin-bottom: 0.75rem;
+    min-width: 30%;
+}
+
+p#infoAmount{
+    margin-top: 20px;
+}
+
+article div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
 }
