@@ -49,8 +49,6 @@ Create a calculator with which you can use the invoice amount to do the followin
 
 ### Continued Development
 
-- check if user wishes no splitting, just counting tipp
-- make h2 and p invissible
 - alert for empty input fields
 
 ## Author
