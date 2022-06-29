@@ -39,6 +39,7 @@ label{
     -moz-appearance: none;
     appearance: none;
     border: none;
+    color: rgb(20, 20, 20);
 }
 
 input,
