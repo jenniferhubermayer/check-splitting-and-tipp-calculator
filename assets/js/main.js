@@ -18,6 +18,8 @@ countAmounts = (event) =>{
     let splittNumFixed = (totalNum / peopleNum).toFixed();
     let splittNumEur = (totalNum / peopleNum).toLocaleString('de-DE', {style: 'currency', currency: 'EUR' });
     let splittNumEurRounded = (totalNum / peopleNum).toLocaleString('de-DE', {maximumFractionDigits:'0'});
+    let splittNumCent = splittNumEur.splice(-3, 2)
+    console.log(splittNumCent)
     let endNumEur = (splittNumFixed * peopleNum).toLocaleString('de-DE', {style: 'currency', currency: 'EUR' });
 
     if (amountNum == 0 || peopleNum == 0){
@@ -38,6 +40,15 @@ countAmounts = (event) =>{
         splittText.innerText = "";
         infoText.innerText = "";
     }
+    // else if(){
+    //     tippTextH2.innerText = `${qualityNum}% tip:`
+    //     tippText.innerText = `${tippNumEur}`;
+    //     totalTextH2.innerText = `Total Amount:`
+    //     totalText.innerText = `${totalNumEur}`;
+    //     splittTextH2.innerText = `Price per person*:`
+    //     splittText.innerText = `${splittNumEurRounded},00 €`;
+    //     infoText.innerText = `*Since we don't like small change, the price per person is rounded. So the service gets a total of ${endNumEur}. If you don't see it that way, simply split the bill into ${splittNumEur} each.`;
+    // }
     else{
         tippTextH2.innerText = `${qualityNum}% tip:`
         tippText.innerText = `${tippNumEur}`;
